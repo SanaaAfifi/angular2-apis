@@ -1,0 +1,39 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        jokes list
+    </div>
+</div>
+<div>
+    <!--<textarea [(ngModel)]="newJoke"></textarea>-->
+
+    <input type="text" id="name" class="form-control"
+       required minlength="4" maxlength="24"
+       name="name" [(ngModel)]="newJoke"
+       #name="ngModel" >
+       
+    <button (click)="PostNewJoke()" >Post</button>
+</div>
+
+<div>
+    <table *ngFor="let joke of JokesList">
+        <tbody>
+            <tr>
+                <td>{{joke.PostedBy}}</td>
+                <!--<td>{{Joke.UserImage}}</td>-->
+                <td>{{joke.Content}}
+                </td>
+            </tr>
+            <tr>
+                <td>{{UpVotes}}</td>
+                <td>{{DownVotes}}</td>
+            </tr>
+            <tr>
+                <td>
+                    <button  (click)="VoteUp(true)">Up</button></td>
+                    <td><button (click)="VoteUp(false)">Down</button></td>
+                    <td><button (click)="Hide()">Hide</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+ 

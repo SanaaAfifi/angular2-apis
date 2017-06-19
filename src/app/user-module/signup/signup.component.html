@@ -1,0 +1,23 @@
+<div class="signup center-block jumbotron">
+  <h1>Signup</h1>
+  <form role="form" (submit)="signup($event, username.value, password.value,confirmPassword.value, userImage.value)">
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" #username class="form-control" id="username" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" #password class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="password">Confirm Password</label>
+    <input type="password" #confirmPassword class="form-control" id="confirmPassword" placeholder="Password">
+  </div>
+   <div class="form-group">
+    <label for="ProfilePhoto">Select your photo</label>
+    <img #userImage id="userImage" >
+
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>

@@ -1,0 +1,43 @@
+<form  (submit)="addNewUser($event)">
+<h1>
+  Register
+</h1>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        User Name:
+      </td>
+      <td>
+        <input [(ngModel)]='UserName' type="text"/>
+      </td>
+      </tr>
+      <tr>
+      <td>
+        Password:
+      </td>
+      <td>
+        <input [ngModel] ='Password' type="password"/>
+      </td>
+       <tr>
+      <td>
+       Confirm Password:
+      </td>
+      <td>
+        <input [ngModel] ='ConfirmPassword' type="password"/>
+      </td
+      </tr>
+      <tr>
+      <td>
+        Profile Photo:
+      </td>
+      <td>
+      <input [(ngModel)]='userImage' type="image" />
+      </td>
+      </tr>
+  </tbody>
+</table>
+<input type="submit" text="Regiester" >
+</form>
+
+

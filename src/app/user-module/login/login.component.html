@@ -1,0 +1,76 @@
+ <div class="login jumbotron center-block  hidden ">
+   <h1>Login</h1>
+   <form role="form" (submit)="login($event, username.value, password.value)">
+   <div class="form-group">
+     <label for="username">Username</label>
+     <input type="text" #username class="form-control" id="username" placeholder="Username">
+   </div>
+   <div class="form-group">
+     <label for="password">Password</label>
+     <input type="password" #password class="form-control" id="password" placeholder="Password">
+   </div>
+   <button type="submit" class="btn btn-default">Submit</button>
+     <a [routerLink]="['/signup']">Click here to Signup</a>
+ </form>
+ </div>
+      <div class="parallax filter-black">
+          <div class="parallax-image"></div>             
+          <div class="small-info">
+           
+            <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-3 col-lg-6 col-lg-push-3">
+              <div class="card-group animated flipInX">
+                <div class="card">
+                  <div class="card-block">
+                    <div class="center">
+                      <h4 class="m-b-0"><span class="icon-text">Login</span></h4>
+                      <p class="text-muted">Access your account</p>
+                    </div>
+                      <form role="form" (submit)="login($event, EmailAddress.value, Password.value)">
+                        <div class="form-group">
+                        <input type="email" class="form-control" #EmailAddress placeholder="EmailAddress" data-cip-id="cIPJQ342845639" autocomplete="off">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" #Password placeholder="Password" data-cip-id="cIPJQ342845640">
+                        <a href="#" class="pull-xs-right">
+                          <small>Forgot your password</small>
+                        </a>
+                        <div class="clearfix"></div>
+                      </div>
+                      <div class="center">
+                          <button type="submit" class="btn btn-azure">Login</button>
+    
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="card">
+                  
+                  <div class="card-block center">
+                    <h4 class="m-b-0">
+                      <span class="icon-text">Sign Up</span>
+                    </h4>
+                    <p class="text-muted">Create a new account</p>
+                    <form (submit)="register($event, FullName.value,Email.value, Password.value,ConfirmPassword.value)">
+                      <div class="form-group">
+                        <input type="text" class="form-control" #FullName placeholder="Full Name" data-cip-id="cIPJQ342845641">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control"#Email  placeholder="Email" data-cip-id="cIPJQ342845642" autocomplete="off">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" #Password placeholder="Password" data-cip-id="cIPJQ342845643">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control"
+                          id="Confirm" #ConfirmPassword placeholder="Confirm Password" data-cip-id="cIPJQ342845644">
+                      </div>
+                      <button type="submit" class="btn btn-azure">Register</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+     
