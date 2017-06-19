@@ -1,0 +1,10 @@
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\Jokes.Entities.dll.config
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\Jokes.Entities.dll
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\Jokes.Entities.pdb
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\EntityFramework.dll
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\EntityFramework.xml
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\obj\Debug\Jokes.Entities.csprojResolveAssemblyReference.cache
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\obj\Debug\Jokes.Entities.dll
+c:\users\new_folder\documents\visual studio 2017\Projects\Jokes\Jokes.Entities\obj\Debug\Jokes.Entities.pdb

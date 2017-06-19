@@ -39,16 +39,16 @@ export class JokesComponent implements OnInit {
   getAllJokes ()
   {
         
-       /* this.jokesService.
+       this.jokesService.
             getAllJokes().subscribe(result => { this.JokesList = result 
-            });   */  
+            });   
   }
 PostNewJoke ()
 {
   var joke : any = {PostedBy : "testUser",Content:this.newJoke,JokeId:this.id ++ }
   
-      /*this.jokesService.
-            addNewJoke(joke).subscribe(result => {this.JokesList.unshift(result)}); */
+      this.jokesService.
+            addNewJoke(joke).subscribe(result => {this.JokesList.unshift(result)}); 
       
       this.JokesList.push(joke)
 
